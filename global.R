@@ -6,7 +6,7 @@ library(leaflet)
 library(pivottabler)
 library(maps)
 
-bbuddy <- read.csv("birdbuddy/all_metadata_december.csv")
+bbuddy <- read.csv("~/birdbuddy/all_metadata_december.csv")
 
 pt <- PivotTable$new()
 pt$addData(bbuddy)
